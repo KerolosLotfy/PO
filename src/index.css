@@ -3,11 +3,13 @@
   padding: 0;
   margin: 0;
   font-size: 16px;
+  list-style: none;
+  text-decoration: none;
 }
 
 :root {
-  --primary-color: #0070f3;
-  --secondary-color: #1a1a1a;
+  --primary-color: #f06f2d;
+  --secondary-color: #2b983f;
   --background-color: #f0f0f0;
   --text-color: #333333;
   --link-color: var(--primary-color);
