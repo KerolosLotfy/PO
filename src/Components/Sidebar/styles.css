@@ -1,0 +1,34 @@
+.sidebar {
+    grid-area: sidebar;
+    /* background-color: #f4f4f4; */
+    padding: 20px;
+    border: 5px solid var(--primary-color);
+    border-top: none;
+    max-width: 12vw;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar a:hover {
+    color: #007bff;
+}
