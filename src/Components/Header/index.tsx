@@ -1,6 +1,6 @@
 import OrangeLogo from '../../assets/Orange-Logo.png'
 import './styles.css'
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 export const Logo = () => {
     return (

@@ -1,12 +1,21 @@
+import { Outlet } from 'react-router-dom'
 import './styles.css'
 // import { Link } from 'react-router-dom'
+
+export const Test = () => {
+    return (
+        <div className="test">
+            {/* <h1>Test Component</h1> */}
+            {/* <Link to="/">Home</Link> */}
+        </div>
+    )
+}
+
 export const Sidebar = () => {
     return (
         <aside className="sidebar">
             <div className="sidebar-content">
-                <h2>Sidebar</h2>
-                <p>This is the sidebar content.</p>
-                {/* <Link to="/sidebar">Go to Sidebar</Link> */}
+                <Test/>
             </div>
         </aside>
     )

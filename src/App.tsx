@@ -1,7 +1,8 @@
 // import { useState } from 'react'
 import './App.css'
 import { Header, Logo } from './Components/Header'
-import { Main, ExcelManager , Home} from './Components/Main'
+import { Main , Home} from './Components/Main'
+import { ExcelManager } from './Components/ExcelManager'
 import { Sidebar } from './Components/Sidebar'
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 function App() {
