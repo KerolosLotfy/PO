@@ -38,14 +38,14 @@ header::before {
 
 .logo-container::before {
     content: "";
-    width: 100%;
+    width: 50%;
     height: 100%;
     border: none;
     border-right: 10px solid var(--primary-color);
     /* border-top: 5px solid var(--primary-color); */
     position: absolute;
     left: 80%;
-    top: 0%;
+    top: 10%;
     transform: translate(-50%, 0);
     border-radius: 10% 0 50% 50%;
     /* background-color: aqua; */
