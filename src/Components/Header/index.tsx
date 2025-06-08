@@ -1,6 +1,6 @@
 import OrangeLogo from '../../assets/Orange-Logo.png'
 import './styles.css'
-// import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 export const Logo = () => {
     return (
@@ -15,8 +15,8 @@ export const Logo = () => {
 export const Nav = () => {
     return (
         <nav className="nav">
-            {/* <Link to="/">Home</Link>
-            <Link to="/about">About</Link> */}
+          <Link to="/">Home</Link> 
+          <Link to="/Auto-BDTs">Auto BDTs</Link>
         </nav>
     )
 }

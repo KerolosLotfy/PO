@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import './App.css'
 import { Header, Logo } from './Components/Header'
-import { Main } from './Components/Main'
+import { Main, ExcelManager , Home} from './Components/Main'
 import { Sidebar } from './Components/Sidebar'
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 function App() {
@@ -12,12 +12,15 @@ function App() {
     <div className="App">
       <Header />
       <Logo />
-      <Sidebar />
-      <Main />
-    </div>
+      <Sidebar />  
     <Routes>
-      {/* <Route path="/" element={<Main />} /> */}
+      <Route path="/" element={<Main />} >
+        <Route path="/" element={<Home />} />
+        <Route path="Auto-BDTs" element={<ExcelManager />} />
+
+      </Route>
       </Routes>
+    </div>
   </Router>
 
   )

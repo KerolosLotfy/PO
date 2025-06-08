@@ -2,7 +2,7 @@
     grid-area: sidebar;
     /* background-color: #f4f4f4; */
     padding: 20px;
-    border: 5px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
     border-top: none;
     max-width: 8vw;
 }
