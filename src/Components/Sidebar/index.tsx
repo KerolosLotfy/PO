@@ -16,7 +16,7 @@ export const Sidebar = () => {
         <aside className="sidebar">
             <div className="sidebar-content">
                 <Test/>
-            </div>0
+            </div>
         </aside>
     )
 }

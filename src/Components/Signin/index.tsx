@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './styles.css';
+import { Auth } from '../Auth';
 
 
 
@@ -10,10 +11,10 @@ interface SigninProps {
     setAuth: (auth: boolean) => void;
 }
 
-export const Signin: React.FC<SigninProps> = ({ setAuth }) => {
+export const Signin: React.FC = () => {
 
     const handleLogin = () => {
-        setAuth(true); // Simulate authentication
+        <Auth/>
     };
 
     return (

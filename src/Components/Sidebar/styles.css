@@ -5,6 +5,7 @@
     border: 3px solid var(--primary-color);
     border-top: none;
     min-width: 8vw;
+    margin-left:5px;
 }
 
 .sidebar-content {
