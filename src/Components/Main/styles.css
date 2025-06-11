@@ -33,7 +33,7 @@ main .img-container {
     height: 100%;
     /* margin: 50px auto; */
     /* background-color: #eee; */
-    flex: .8;
+    flex: 1;
 }
 .main img {
     max-width: 100%;

@@ -3,18 +3,10 @@ import './styles.css';
 import { Auth } from '../Auth';
 
 
-
-
-
-
-interface SigninProps {
-    setAuth: (auth: boolean) => void;
-}
-
 export const Signin: React.FC = () => {
 
     const handleLogin = () => {
-        <Auth/>
+        <Auth/> 
     };
 
     return (
